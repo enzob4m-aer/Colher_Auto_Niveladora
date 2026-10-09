@@ -1,4 +1,3 @@
-
 //  COLHER NIVELADORA - (Arduino UNO Q)
 //
 //  O que faz, 100 vezes por segundo:
@@ -8,8 +7,7 @@
 //   3) Move o servo de forma suave.
 //
 //  AO LIGAR: deixe a colher PARADA, apoiada na mesa, por uns 5 segundos.
-//
-// =============================================================
+
 #include <Arduino_RouterBridge.h>
 #include <Wire.h>
 #include <Servo.h>
