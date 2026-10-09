@@ -4,11 +4,11 @@
 //  Transforma o pino A4 num "testador": um fio sai do A4 e a outra
 //  ponta voce encosta no ponto que quer medir. A tela mostra, 2 vezes
 //  por segundo, o que ha naquele ponto:
-//     3,3 V  = ligado ao positivo (ou a um pino com resistor para cima)
-//     0 V    = ligado ao GND (ou algo puxando para baixo)
+//     3,3 V  = ligado ao positivo 
+//     0 V    = ligado ao GND 
 //     SOLTO  = nao esta encostando em nada
 //
-//  CUIDADO: nunca encoste a ponta no trilho + da DIREITA (5 V da fonte).
+//  CUIDADO: nunca encoste a ponta no trilho de 5V da fonte
 // =============================================================
 #include <Arduino_RouterBridge.h>
 
